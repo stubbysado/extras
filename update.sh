@@ -1,8 +1,6 @@
 #!/bin/bash -x
 
-sudo apt update -y
+sudo apt update
 sudo apt upgrade -y
-sudo apt clean -y
+sudo apt clean
 sudo apt autoremove -y
-
-sync && sync
